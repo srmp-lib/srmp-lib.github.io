@@ -173,8 +173,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           TBD.
-                  </p>
+            Planning long-horizon motions using a set of predefined skills is a key challenge in robotics and AI. Addressing this challenge requires methods that systematically explore skill combinations to uncover task-solving sequences, harness generic, easy-to-learn skills (e.g., pushing, grasping) to generalize across unseen tasks, and bypass reliance on symbolic world representations that demand extensive domain and task-specific knowledge. Despite significant progress, these elements remain largely disjoint in existing approaches, leaving a critical gap in achieving robust, scalable solutions for complex, long-horizon problems.
+            In this work, we present \mosaic{}, a skill-centric framework that unifies these elements by using the skills themselves to guide the planning process. \mosaic{} uses two families of skills: \textit{Generators} compute executable trajectories and world configurations, and \textit{Connectors} link these independently generated skill trajectories by solving boundary value problems, enabling progress toward completing the overall task. By breaking away from the conventional paradigm of incrementally discovering skills from predefined start or goal states---a limitation that significantly restricts exploration---\mosaic{} focuses planning efforts on regions where skills are inherently effective.
+            We demonstrate the efficacy of \mosaic{} in both simulated and real-world robotic manipulation tasks, showcasing its ability to solve complex long-horizon planning problems using a diverse set of skills incorporating generative diffusion models, motion planning algorithms, and manipulation-specific models.
+          </p>
         </div>
       </div>
     </div>
