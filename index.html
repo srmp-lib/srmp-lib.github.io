@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-<!-- <head>
+<head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Mosaic: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning">
-  <meta name="keywords" content="Manipulation, Robotics, Diffusion Models">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        content="SRMP: Search-Based Robot Motion Planning Library">
+  <meta name="keywords" content="Manipulation, Robotics, Multi-Robot, Planning, Search-Based Planning, Motion Planning, IROS 2025">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <!-- <title>Mosaic: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning</title> -->
   <!-- <title>404: Page Not Found</title> -->
 
   <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-');
-  </script> -->
+  </script>
 
-  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
@@ -35,10 +35,10 @@
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script> -->
-<!-- </head> -->
+  <script src="./static/js/index.js"></script> 
+</head>
 
-<head>
+<!-- <head>
   <meta charset="UTF-8">
   <meta name="viewport" 
         content="width=device-width, 
@@ -58,52 +58,167 @@
           looking for is not here.
       </p>
   </div>
-</body>
+</body> -->
 
 
-<!-- <body> -->
-<!-- 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
+<body>
+  <!-- 
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://keunhong.com">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
         </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
           </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://hypernerf.github.io">
+              HyperNeRF
+            </a>
+            <a class="navbar-item" href="https://nerfies.github.io">
+              Nerfies
+            </a>
+            <a class="navbar-item" href="https://latentfusion.github.io">
+              LatentFusion
+            </a>
+            <a class="navbar-item" href="https://photoshape.github.io">
+              PhotoShape
+            </a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </nav> -->
+  
+  
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SRMP: Search-Based Robot Motion Planning Library</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://cs.cmu.edu/~imishani">Itamar Mishani</a><sup>★</sup>,</span>
+              <span class="author-block">
+                <a href="https://yoraish.com">Yorai shaoul</a><sup>★</sup>,</span>
+              <span class="author-block">
+                <a href="https://drramkumar.me/">Ramkumar Natarajan</a><sup>★</sup>,</span>  
+              <span class="author-block">
+                <a href="http://jiaoyangli.me">Jiaoyang Li</a><sup></sup>.
+              </span>
+              <span class="author-block">
+                <a href="https://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a><sup></sup>,
+              </span>
+            </div>
+              <p class="is-size-5 publication-authors"> Carnegie Mellon University </p>
+              <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>★</sup>Equal contribution.</span>
+            </div>
+  
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/TODO.pdf"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/TODO"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://www.youtube.com/TODO"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span> -->
+                <!-- Code Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://github.com/google/nerfies"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                    </a>
+                </span> -->
+                <!-- Dataset Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                    </a> -->
+              </div>
+  
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-  </div>
-</nav> -->
-
-<!--  
-</body> -->
+  </section>
+  
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/srmp-video.mp4"
+                  type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          SRMP is a robot motion planning software that efficiently generates consistent motion plans for one or many robots. SRMP supports modern simulators, is available through C++ and Python APIs, and integrates with MoveIt! via a plugin.
+        </h2>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website was adapted from <a href="https://nerfies.github.io">Nerfies</a>, and is licensed under a <a rel="license"
+                                                  href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  </body>
 
 </html>

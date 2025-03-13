@@ -1,4 +1,4 @@
-#  Mosaic: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning
+#  SRMP: Search-Based Robot Motion Planning Library
 
 
 # Website License
